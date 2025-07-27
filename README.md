@@ -1,3 +1,4 @@
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
 # 🌦️ CYOA-Game: Mumbai Weather Adventure
 
 Welcome to the **Choose Your Own Adventure** game set in the unpredictable weather of Mumbai!
