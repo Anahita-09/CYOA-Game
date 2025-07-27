@@ -1,48 +1,87 @@
-# Choose Your Own Adventure (CYOA) Game Starter Code 
-Welcome to the CYOA Game Project! Fork this starter code to begin your quest.
+# 🌦️ CYOA-Game: Mumbai Weather Adventure
 
-
-### Project Requirements
-Your project should:
-- Include at least five screens with text related to your story on each.
-- Start on a home screen that begins the story.
-- Include at least two screens that offer players a choice between two options.
-- Use p5play properties to style your button sprites.
-- Apply nested conditionals, variables, and the `mouse.presses` method to code branching paths in your story.
-- Create and call a function for each screen to keep your code organized.
-- Optional:
-  - Create a flowchart and storyboard to prototype your CYOA mod.
-  - Mod the base game to make it your own by updating the game text and visuals to display your own story.
-
-
-### Optional Spice Level + Extensions
-You can extend your project further by:
-- Trying a Spice Level Challenge (See Part 6)
-- Making it accessible (See HQ for details)
-- Adding more screens (See HQ for details)
-
-
-###  Attributions
-*If you used any code, ideas, images, or resources from another person or group of people, tell us about it here. Make sure it is in the public domain, has a license that allows you to use it, or is one of your own. Pixabay, Upsplash, and Burst are sites that offer free, uncopyrighted images.*
-- Add here if applicable
+Welcome to the **Choose Your Own Adventure** game set in the unpredictable weather of Mumbai!
+This interactive game allows users to make choices by pressing on-screen buttons and navigating through various weather scenarios in search of shelter.
 
 ---
 
-## File Overview
+## 🎮 How to Play
 
-### ← script.js
+1. **Start the game** by clicking the **"Enter"** button.
+2. You’ll encounter weather-related challenges (sun, rain).
+3. Make decisions by clicking on one of the buttons labeled **“Shed”**, **“B1”**, or **“B2”**.
+4. Each choice leads you down a different path. Some choices will lead you to shelter (a shed), others will not.
+5. Find the right path to successfully escape the weather!
 
-This is where we will add the JavaScript, p5.js, and p5.play code for our game.
+---
 
-### ← index.html
+## 🛠️ Features
 
-The HTML file contains HTML code that sets up a webpage for our game. We also add libraries in this file using HTML tags.
+* Multiple screens and decision points
+* Custom weather visuals (sun and rain)
+* Interactive buttons using **p5play Sprites**
+* Font customization for a polished look
+* Dynamic background changes based on player choices
 
-### ← README.md
+---
 
-That's this file. This is the place to tell people more about what your game does and how you built it. 
+## 🧠 Game Logic Flow
 
-### ← style.css
+```
+Start ➡️ Sunny Screen ➡️ Choose a Shed:
+               ↳ A1 ➡️ Rain Screen ➡️ B1 or B2
+                       ↳ B1 or B2 = Shed (Win)
+               ↳ A2 = Shed (Win)
+```
 
-The CSS file adds styling rules to your content like changing colors and fonts. We will not use this file for our game and instead update the style of our game in the script.js file.  
+---
 
+## 📁 File Structure
+
+```
+/assets
+  └── Lib.ttf         # Custom font used in the game
+
+CYOA-Game.pde         # Main game code
+README.md             # This file
+```
+
+---
+
+## 📦 Dependencies
+
+* [p5.js](https://p5js.org/)
+* [p5play](https://p5play.org/) (for buttons using Sprite objects)
+
+Make sure to include both libraries in your HTML file or Replit project settings.
+
+---
+
+## ✅ Customization Ideas For Future
+
+* Add more branching paths for deeper gameplay
+* Include sound effects for button clicks or weather
+* Track and display the player's decision history
+* Add animations for weather changes
+
+---
+
+## 💡 Learnings
+
+This game has been a great beginner project to:
+
+* Learn conditional logic
+* Practice using **p5.js** and **p5play**
+* Experiment with user interaction and graphics
+
+---
+
+## 📸 Preview
+
+![alt text](image.png)
+
+---
+
+## 🔄 License
+
+MIT License. Free to use, modify, and share with attribution.
