@@ -2,87 +2,38 @@
 # 🌦️ CYOA-Game: Mumbai Weather Adventure
 
 Welcome to the **Choose Your Own Adventure** game set in the unpredictable weather of Mumbai!
-This interactive game allows users to make choices by pressing on-screen buttons and navigating through various weather scenarios in search of shelter.
+This is a interactive game that I made which allows users to make choices by pressing on-screen buttons and navigating through various weather scenarios in search of shelter.
 
 ---
 
 ## 🎮 How to Play
 
-1. **Start the game** by clicking the **"Enter"** button.
-2. You’ll encounter weather-related challenges (sun, rain).
-3. Make decisions by clicking on one of the buttons labeled **“Shed”**, **“B1”**, or **“B2”**.
+1. Start the game by clicking the "Enter" button.
+2. You’ll come across two options to save yourself from sudden weather changes (sun, rain).
+3. You should then maken a decisions by clicking on one of the buttons.
 4. Each choice leads you down a different path. Some choices will lead you to shelter (a shed), others will not.
-5. Find the right path to successfully escape the weather!
+5. Find the right path to successfully escape the bad weather!
 
 ---
 
 ## 🛠️ Features
 
-* Multiple screens and decision points
-* Custom weather visuals (sun and rain)
-* Interactive buttons using **p5play Sprites**
-* Font customization for a polished look
-* Dynamic background changes based on player choices
+There are multiple screens to make decisions. Custom weather animations for sunny and rain. Interactive button and I have included a personalized font as well for a better look. And the background also changes based on the users choices.
 
 ---
 
-## 🧠 Game Logic Flow
+## Iteration Ideas For Future
 
-```
-Start ➡️ Sunny Screen ➡️ Choose a Shed:
-               ↳ A1 ➡️ Rain Screen ➡️ B1 or B2
-                       ↳ B1 or B2 = Shed (Win)
-               ↳ A2 = Shed (Win)
-```
+If I werw to enhance this game in future I would make more branches(paths) so they the user can have a deeper journer. Include sound effects for when the user clicks a button. And also create better animations for the weather changing.
 
 ---
 
-## 📁 File Structure
+## 💡 Things i learned
 
-```
-/assets
-  └── Lib.ttf         # Custom font used in the game
-
-CYOA-Game.pde         # Main game code
-README.md             # This file
-```
-
----
-
-## 📦 Dependencies
-
-* [p5.js](https://p5js.org/)
-* [p5play](https://p5play.org/) (for buttons using Sprite objects)
-
-Make sure to include both libraries in your HTML file or Replit project settings.
-
----
-
-## ✅ Customization Ideas For Future
-
-* Add more branching paths for deeper gameplay
-* Include sound effects for button clicks or weather
-* Track and display the player's decision history
-* Add animations for weather changes
-
----
-
-## 💡 Learnings
-
-This game has been a great beginner project to:
-
-* Learn conditional logic
-* Practice using **p5.js** and **p5play**
-* Experiment with user interaction and graphics
+This game has been a great start to my game design journey as it helped me learn conditional logic and learn hot to use p5.js and p5play. And it also tought me how to enhance the game using user interactions.
 
 ---
 
 ## 📸 Preview
 
 ![alt text](image.png)
-
----
-
-## 🔄 License
-
-MIT License. Free to use, modify, and share with attribution.
